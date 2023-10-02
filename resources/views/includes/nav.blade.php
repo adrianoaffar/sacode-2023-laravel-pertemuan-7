@@ -17,7 +17,7 @@
                     </li>
 
                     <li class="list-group-item @if(Request::segment('1') == 'contact') active @endif">
-                        <a href="{{url('contact') }}" class="fs-4 text-decoration-none px-4 @if(Request::segment('1') == 'contact') active @endif">Contact</a>
+                        <a href="{{url('contact') }}" class="fs-4 text-decoration-none px-4 @if(Request::segment('1') == 'contact') link-light @endif">Contact</a>
                     </li>
                 </ul>        
             </div>
